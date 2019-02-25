@@ -1,0 +1,25 @@
+#divNom{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+#divTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+td{
+    text-align: center;
+    border-style: solid;
+}
+.td-newsletter{
+    border: white;
+}
+#modal-dialog-form{
+    border-style: solid;
+}
+#bouton{
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}

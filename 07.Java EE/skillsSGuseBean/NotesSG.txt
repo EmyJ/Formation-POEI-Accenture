@@ -1,0 +1,6 @@
+Activité Skills
+
+Objectifs: découverte des balises jsp:useBean ; jsp:getProperty
+
+Description : 
+A partir du projet skillsContextes, remplacer dans la jsp les getAttributes par des balies jsp:...

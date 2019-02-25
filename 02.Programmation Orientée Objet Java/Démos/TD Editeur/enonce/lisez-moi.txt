@@ -1,0 +1,4 @@
+A partir du diagramme de classe, developper le modèle métier validant ces règles :
+
+- Une commande en mémoire est rattachée obligatoirement à un client et au minimum un livre.
+- Un client ne peut commander au maximum que 10 livres.

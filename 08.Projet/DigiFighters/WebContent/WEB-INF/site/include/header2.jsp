@@ -1,0 +1,1 @@
+<header class="header"><img src="<%=request.getContextPath()%>/img/fond.png" alt="" /></header>

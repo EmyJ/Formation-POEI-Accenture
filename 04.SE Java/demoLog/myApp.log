@@ -1,0 +1,6 @@
+2019-01-18 12:18:17,016 WARN [main] f.e.d.MaClasse [MaClasse.java:14] Message de niveau WARN, je suis dans le try 
+2019-01-18 12:18:17,016 ERROR [main] f.e.d.MaClasse [MaClasse.java:17] Message de niveau ERROR, ERREUR : For input string: "toto"
+2019-01-18 12:18:17,016 INFO [main] f.e.d.MaClasse [MaClasse.java:19] Message de niveau INFO, je suis dans le finally 
+2019-01-18 13:43:02,350 WARN [main] f.e.d.MaClasse [MaClasse.java:14] Message de niveau WARN, je suis dans le try 
+2019-01-18 13:43:02,366 ERROR [main] f.e.d.MaClasse [MaClasse.java:17] Message de niveau ERROR, ERREUR : For input string: "toto"
+2019-01-18 13:43:02,366 INFO [main] f.e.d.MaClasse [MaClasse.java:19] Message de niveau INFO, je suis dans le finally 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>160</y>
+      <w>350</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>Client
+--
+-adresse: String
+-cp: int
+-nom: String
+-prenom: String
+-ville: String
+--
++setAdresse(value: String)
++getAdresse(): String
++setCodePostal(value: String)
++getCodePostal(): String
++setNom(value: String)
++getNom(): String
++setVille(value: String)
++getVille(): String
+--
++Client(nom: String, prenom: String, adresse: String,
+			cp: String, ville: String)
+--
++getClientToString(): String
+_-firstInUpper(chaine: String, separateurs: String):String_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>160</y>
+      <w>320</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>Livre
+--
+-titre: String
+-auteur: String
+-nbpages: int
+-isbn: long
+--
++setTitre(value: String)
++getTitre(): String
++setAuteur(value: String)
++getAuteur(): String
++setNbpages(value: int)
++getNbpages(): int
++setIsbn(value: String)
++getIsbn(): String
++getPrix(): double
+--
++Livre(auteur: String, titre: String, nbpages: int,
+isbn: String)
+--
++getLivreToString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>670</y>
+      <w>330</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Commande
+--
+-dateCde: Date
+-MAX: int = 10
+-position: int = 0
+--
++setClient(Client client)
++getClient: Client
++getMontant(): double
+--
++Commande(Client client, Livre livre)
++Commande(Client client, Livre[] livres)
+--
++add(Livre livre)
++getCommandeToString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>480</y>
+      <w>60</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=client
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>460</y>
+      <w>60</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=livres
+m1=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+</diagram>

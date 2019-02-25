@@ -1,0 +1,13 @@
+System.out.println("Merci de saisir votre nom");
+		String nom = scan.nextLine();
+		System.out.println("Merci de saisir votre prénom");
+		String prenom = scan.nextLine();
+		
+		afficherSalutations(nom, prenom);
+		scan.close();
+		
+	}
+	
+	public static void afficherSalutations(String nom, String prenom){
+		System.out.println("Bonjour " + prenom + " " + nom);
+	}

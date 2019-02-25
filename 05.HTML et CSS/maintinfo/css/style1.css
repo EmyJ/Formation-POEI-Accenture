@@ -1,0 +1,71 @@
+.titre{
+    color: orange;
+    text-align: center;
+    display: inline-block;
+    width: 85%;
+}
+.deconnexion{
+    display: inline-block;
+}
+.table{
+    background-color: white;
+    width: 91%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.thead{
+    background-color: #999999;
+    /*width: 10%;*/
+}
+.table thead {
+    display:block;
+
+}
+.table thead th {
+    text-align: center;
+}
+.table tbody {
+    display:block;
+    height:350px; /* 5 times the equivalent of a text "size". */
+    overflow-y:scroll;
+}
+
+.table thead tr th:nth-child(1) { /* column 1 ! */
+    width:105px;
+}
+.table thead tr th:nth-child(2) { /* column 2 */
+    width:235px;
+}
+.table thead tr th:nth-child(3){
+    width: 1030px;
+}
+.table thead tr th:nth-child(4){
+    width: 124px;
+}
+.table thead tr th:nth-child(6){
+    width: 73px;
+}
+.table thead tr th:nth-child(7){
+    width: 124px;
+}
+.table tbody tr:first-child td:nth-child(1) { /* column 1 ! */
+    width:105px;
+}
+.table tbody tr:first-child td:nth-child(2) { /* column 2 */
+    width:235px;
+}
+.table tbody tr:first-child td:nth-child(3) { /* column 3 */
+    width:1030px;
+}
+.table tbody tr:first-child td:nth-child(4) { /* column 3 */
+    width:124px;;
+}
+.table tbody tr:first-child td:nth-child(5) { /* column 4 */
+    width:53px;
+}
+img {
+    width: 90%;
+}
+p {
+    margin: 33px 0 10px;
+}

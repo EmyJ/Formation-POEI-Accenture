@@ -1,0 +1,76 @@
+body{
+    font-family: 'Tangerine', cursive;
+    font-size: 38px;
+}
+h1{
+    font-size: 430%;
+}
+.navbar{
+    background-color: #003366;
+}
+hr{
+    height: 4px;
+    color: #4db8ff;
+    background-color: #4db8ff;
+    width: 5%;
+    border: none;
+}
+.accueil{
+    position: relative;
+    text-align: center;
+    color: #80bfff;
+}
+#apprendre{
+    margin-bottom: 2%
+}
+#formation{
+    margin-bottom: 2%;
+}
+.centered {
+    position: absolute;
+    top: 248px;
+    left: 63px;
+}
+h2{
+    margin-bottom: 2%;
+}
+.article{
+    padding-bottom: 10%;
+}
+.article1{
+    display: inline-block;
+    float: left;
+    width: 32%;
+
+}
+.article2{
+    display: inline-block;
+    float: left;
+    width: 32%;
+}
+.article3{
+    display: inline-block;
+    float: left;
+    width: 32%;
+}
+.clear {
+    clear: both;
+}
+.articleF{
+    margin-bottom: 10%;
+}
+
+label.obligatoire:after {
+    content: "*";
+    color: red;
+}
+.inscription{
+    background-color: #003366;
+}
+.incrire{
+    color: white;
+}
+input:focus:invalid {
+    border-color: #f79c9c;
+    box-shadow: 0 0 1px #f79c9c;
+}
